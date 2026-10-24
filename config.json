@@ -1,6 +1,6 @@
 {
-  "active": true,
-  "versionName": "1.1.3",
+  "active": false,
+  "versionName": "1.1.5",
   "versionCode": 14,
   "targetUrl": "https://github.com/xData-Hub/bounc-releases/releases/download/new/androidApp-gms-release.apk"
 }
