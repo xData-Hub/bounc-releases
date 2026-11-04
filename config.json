@@ -1,6 +1,7 @@
 {
-  "active": false,
+  "active": true,
   "versionName": "1.1.8",
-  "versionCode": 19,
-  "targetUrl": "https://github.com/xData-Hub/bounc-releases/releases/download/new/Bounc.v1.1.8.apk"
+  "versionCode": 20,
+  "targetUrl": "https://play.google.com/store/apps/details?id=com.bounc.music",
+  "mandatory": true
 }
