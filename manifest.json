@@ -11,7 +11,7 @@
       "dailyReward": true,
       "anchor": "FACE",
       "layer": "FRONT",
-      "svgUrl": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/samples/remote-outfits/cyberpunk_glasses.svg",
+      "svgUrl": "https://github.com/xData-Hub/bounc-releases/blob/main/outfits/cyber_punk.svg",
       "meta": {
         "viewBox": [0, 0, 320, 140],
         "pivot": [160, 52],
