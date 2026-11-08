@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "outfits": [
+    {
+      "schemaVersion": 1,
+      "id": "cyberpunk_glasses",
+      "name": "Neon Circuit Shades",
+      "description": "Black lenses with electric cyan and magenta trim.",
+      "category": "glasses",
+      "premium": false,
+      "dailyReward": true,
+      "anchor": "FACE",
+      "layer": "FRONT",
+      "svgUrl": "https://raw.githubusercontent.com/YOUR_USER/YOUR_REPO/main/samples/remote-outfits/cyberpunk_glasses.svg",
+      "meta": {
+        "viewBox": [0, 0, 320, 140],
+        "pivot": [160, 52],
+        "targetWidthRelative": 1.65,
+        "offsetRelative": [0, 0],
+        "rotation": 0
+      }
+    }
+  ]
+}
