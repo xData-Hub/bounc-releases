@@ -15,9 +15,16 @@
       "meta": {
         "viewBox": [0, 0, 320, 140],
         "pivot": [160, 52],
-        "targetWidthRelative": 1.65,
+        "targetWidthRelative": 1.0,
         "offsetRelative": [0, 0],
-        "rotation": 0
+        "rotation": 0,
+        "surfaceSpan": {
+          "svgStart": [42, 48],
+          "svgEnd": [278, 48],
+          "bodyY": -0.12,
+          "bodyLongitudeStart": -1.0,
+          "bodyLongitudeEnd": 1.0
+        }
       }
     }
   ]
