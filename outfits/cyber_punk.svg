@@ -1,9 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 320 140" width="320" height="140">
-  <path d="M 42 42 C 68 31 108 31 134 43 L 129 85 C 127 101 115 108 97 104 L 64 98 C 49 95 42 82 40 66 Z" fill="#101827" stroke="#38F6FF" stroke-width="8" />
-  <path d="M 186 43 C 212 31 252 31 278 42 L 280 66 C 278 82 271 95 256 98 L 223 104 C 205 108 193 101 191 85 Z" fill="#101827" stroke="#38F6FF" stroke-width="8" />
-  <path d="M 132 51 C 146 42 174 42 188 51 L 184 61 C 171 55 149 55 136 61 Z" fill="#FF3DF2" stroke="#38F6FF" stroke-width="4" />
-  <path d="M 48 54 C 67 47 91 46 109 51" fill="none" stroke="#FF3DF2" stroke-width="4" />
-  <path d="M 211 51 C 229 46 253 47 272 54" fill="none" stroke="#FF3DF2" stroke-width="4" />
-  <path d="M 42 49 L 12 39" fill="none" stroke="#38F6FF" stroke-width="8" />
-  <path d="M 278 49 L 308 39" fill="none" stroke="#38F6FF" stroke-width="8" />
+  <defs>
+    <linearGradient id="lensTint" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#35445B" />
+      <stop offset="100%" stop-color="#141A2A" />
+    </linearGradient>
+    <linearGradient id="frameBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#86DDE0" />
+      <stop offset="100%" stop-color="#397B83" />
+    </linearGradient>
+  </defs>
+  <g data-layer="BACK">
+    <path d="M 43 48 C 32 45 22 41 10 36" fill="none" stroke="#397B83" stroke-width="7" />
+    <path d="M 277 48 C 288 45 298 41 310 36" fill="none" stroke="#397B83" stroke-width="7" />
+  </g>
+  <path d="M 42 43 C 67 32 106 32 132 44 L 128 83 C 126 98 114 105 98 102 L 65 97 C 51 94 44 82 41 67 Z" fill="url(#lensTint)" stroke="url(#frameBevel)" stroke-width="7" />
+  <path d="M 188 44 C 214 32 253 32 278 43 L 279 67 C 276 82 269 94 255 97 L 222 102 C 206 105 194 98 192 83 Z" fill="url(#lensTint)" stroke="url(#frameBevel)" stroke-width="7" />
+  <path d="M 132 51 C 146 44 174 44 188 51 L 184 59 C 171 54 149 54 136 59 Z" fill="#4E8990" stroke="#86DDE0" stroke-width="3" />
+  <path d="M 52 54 C 69 48 91 47 108 51" fill="none" stroke="#B5F1EB" stroke-width="3" stroke-opacity="0.58" />
+  <path d="M 212 51 C 229 47 251 48 268 54" fill="none" stroke="#B5F1EB" stroke-width="3" stroke-opacity="0.58" />
+  <path d="M 50 88 C 70 96 99 100 116 96" fill="none" stroke="#080D17" stroke-width="3" stroke-opacity="0.36" />
+  <path d="M 204 96 C 221 100 250 96 270 88" fill="none" stroke="#080D17" stroke-width="3" stroke-opacity="0.36" />
 </svg>
