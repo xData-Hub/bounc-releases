@@ -18,12 +18,9 @@
         "targetWidthRelative": 1.0,
         "offsetRelative": [0, 0],
         "rotation": 0,
-        "surfaceSpan": {
-          "svgStart": [42, 48],
-          "svgEnd": [278, 48],
-          "bodyY": -0.12,
-          "bodyLongitudeStart": -1.0,
-          "bodyLongitudeEnd": 1.0
+        "eyeSpan": {
+          "svgLeftEye": [86, 69],
+          "svgRightEye": [234, 69]
         }
       }
     }
