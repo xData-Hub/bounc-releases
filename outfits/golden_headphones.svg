@@ -1,7 +1,7 @@
 <svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Metallic Gold Gradient for Headband & Caps -->
-    <linearGradient id="goldMetallic" x1="0" y1="0" x2="300" y2="200" gradientUnits="userSpaceOnUse">
+    <linearGradient id="goldMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFE680" />
       <stop offset="30%" stop-color="#D4AF37" />
       <stop offset="70%" stop-color="#AA7C11" />
@@ -9,14 +9,14 @@
     </linearGradient>
 
     <!-- Dark Leather Gradient for Ear Cushions -->
-    <linearGradient id="darkLeather" x1="0" y1="0" x2="0" y2="200" gradientUnits="userSpaceOnUse">
+    <linearGradient id="darkLeather" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#2A2A2E" />
       <stop offset="50%" stop-color="#18181A" />
       <stop offset="100%" stop-color="#0F0F11" />
     </linearGradient>
 
     <!-- Brass Accent Gradient -->
-    <linearGradient id="brassAccent" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+    <linearGradient id="brassAccent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFF5C0" />
       <stop offset="50%" stop-color="#E6C200" />
       <stop offset="100%" stop-color="#998000" />
