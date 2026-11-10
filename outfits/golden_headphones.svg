@@ -1,0 +1,97 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Metallic Gold Gradient for Headband & Caps -->
+    <linearGradient id="goldMetallic" x1="0" y1="0" x2="300" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE680" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA7C11" />
+      <stop offset="100%" stop-color="#FFF0A0" />
+    </linearGradient>
+
+    <!-- Dark Leather Gradient for Ear Cushions -->
+    <linearGradient id="darkLeather" x1="0" y1="0" x2="0" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2A2A2E" />
+      <stop offset="50%" stop-color="#18181A" />
+      <stop offset="100%" stop-color="#0F0F11" />
+    </linearGradient>
+
+    <!-- Brass Accent Gradient -->
+    <linearGradient id="brassAccent" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFF5C0" />
+      <stop offset="50%" stop-color="#E6C200" />
+      <stop offset="100%" stop-color="#998000" />
+    </linearGradient>
+  </defs>
+
+  <!-- BACK LAYER: Headband Arch passing behind Bouni's head -->
+  <g data-layer="BACK">
+    <!-- Main Outer Headband Arc -->
+    <path d="M 45 110 C 45 20, 255 20, 255 110"
+          fill="none"
+          stroke="url(#goldMetallic)"
+          stroke-width="16"
+          stroke-linecap="round" />
+
+    <!-- Inner Padded Cushion Strap -->
+    <path d="M 60 105 C 60 32, 240 32, 240 105"
+          fill="none"
+          stroke="url(#darkLeather)"
+          stroke-width="8"
+          stroke-linecap="round" />
+  </g>
+
+  <!-- FRONT LAYER: Ear Cups, Sliders, Metallic Accents & Highlights -->
+  <g data-layer="FRONT">
+    <!-- Left Ear Cup Assembly -->
+    <!-- Left Cushion -->
+    <rect x="25" y="80" width="34" height="60" rx="17" ry="17"
+          fill="url(#darkLeather)"
+          stroke="#3A3A40"
+          stroke-width="2" />
+    <!-- Left Gold Cap -->
+    <rect x="15" y="85" width="20" height="50" rx="10" ry="10"
+          fill="url(#goldMetallic)"
+          stroke="#AA7C11"
+          stroke-width="1.5" />
+    <!-- Left Hinge / Slider -->
+    <path d="M 25 90 L 25 70 L 45 70 L 45 80"
+          fill="url(#brassAccent)" />
+    <!-- Left Inner Mesh Accent -->
+    <ellipse cx="42" cy="110" rx="4" ry="16"
+             fill="#101012"
+             opacity="0.8" />
+    <!-- Left Specular Reflection -->
+    <path d="M 18 92 C 18 92, 22 92, 22 120"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="2"
+          stroke-linecap="round"
+          opacity="0.6" />
+
+    <!-- Right Ear Cup Assembly -->
+    <!-- Right Cushion -->
+    <rect x="241" y="80" width="34" height="60" rx="17" ry="17"
+          fill="url(#darkLeather)"
+          stroke="#3A3A40"
+          stroke-width="2" />
+    <!-- Right Gold Cap -->
+    <rect x="265" y="85" width="20" height="50" rx="10" ry="10"
+          fill="url(#goldMetallic)"
+          stroke="#AA7C11"
+          stroke-width="1.5" />
+    <!-- Right Hinge / Slider -->
+    <path d="M 275 90 L 275 70 L 255 70 L 255 80"
+          fill="url(#brassAccent)" />
+    <!-- Right Inner Mesh Accent -->
+    <ellipse cx="258" cy="110" rx="4" ry="16"
+             fill="#101012"
+             opacity="0.8" />
+    <!-- Right Specular Reflection -->
+    <path d="M 282 92 C 282 92, 278 92, 278 120"
+          fill="none"
+          stroke="#FFFFFF"
+          stroke-width="2"
+          stroke-linecap="round"
+          opacity="0.6" />
+  </g>
+</svg>
