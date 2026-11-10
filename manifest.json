@@ -23,6 +23,25 @@
           "svgRightEye": [234, 69]
         }
       }
+    },
+    {
+      "schemaVersion": 1,
+      "id": "golden_headphones",
+      "name": "Golden Studio Headphones",
+      "description": "Sleek metallic gold headphones with soft padding and 3D back-band wrapping.",
+      "category": "hat",
+      "premium": false,
+      "dailyReward": true,
+      "anchor": "HEAD",
+      "layer": "FRONT",
+      "svgUrl": "https://raw.githubusercontent.com/xData-Hub/bounc-releases/main/outfits/golden_headphones.svg",
+      "meta": {
+        "viewBox": [0, 0, 300, 200],
+        "pivot": [150, 110],
+        "targetWidthRelative": 1.15,
+        "offsetRelative": [0.0, -0.05],
+        "rotation": 0
+      }
     }
   ]
 }
