@@ -7,7 +7,7 @@
       "name": "Neon Circuit Shades",
       "description": "Black lenses with electric cyan and magenta trim.",
       "category": "glasses",
-      "premium": false,
+      "premium": true,
       "dailyReward": true,
       "anchor": "FACE",
       "layer": "FRONT",
