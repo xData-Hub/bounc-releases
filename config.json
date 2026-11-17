@@ -1,7 +1,7 @@
 {
-  "active": false,
-  "versionName": "1.1.8",
-  "versionCode": 19,
+  "active": true,
+  "versionName": "1.1.9",
+  "versionCode": 20,
   "targetUrl": "https://play.google.com/store/apps/details?id=com.bounc.music",
   "mandatory": false
 }
